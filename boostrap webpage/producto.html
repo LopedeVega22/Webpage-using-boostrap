@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ejemplos Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <div class="col-12 ">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-pers">
+                        <a href="index.html" class="navbar-brand"><img src="imagenes/logo volskwagen.png" class="circle" style="height: 70px"></a>
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#uno" >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <h3 >Volskwagen</h3>
+                        <div class="collapse navbar-collapse" id="uno">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="index.html" class="nav-link navbar-color ">Inicio</a></li>
+                                <li class="nav-item"><a href="producto.html" class="nav-link navbar-color">Golf 8</a></li>
+                                <li class="nav-item"><a href="formulario.html" class="nav-link navbar-color">Datos del usuario</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card shadow-lg panel-compra p-4">
+            <div class="row g-4 h-100">
+              <div class="col-md-7 d-flex align-items-center">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imagenes/imagen2.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/imagen1.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/VW_Golf_8_GTI.webp" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+              <div class="col-md-5 d-flex align-items-center">
+                <div class="card-body w-100">
+                  <h3 class="card-title mb-3">Volkswagen Golf 8</h3>
+                  <h5 class="text-muted">Desde <strong>25.000 €</strong></h5>
+                  <div class="mb-3">
+                    <label class="form-label">Versión / Motor</label>
+                    <select class="form-select">
+                      <option value="life">Life 1.0 TSI 110CV</option>
+                      <option value="style">Style 1.5 TSI 130CV</option>
+                      <option value="rline">R-Line 2.0 TDI 150CV</option>
+                      <option value="gti">GTI 2.0 TSI 245CV</option>
+                    </select>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label class="form-label">Color exterior</label>
+                    <div class="d-flex gap-3 flex-wrap">
+                      <div class="form-check">
+                        <input class="form-check-input d-none" type="radio" name="color" id="colorBlanco" checked>
+                        <label class="cambioColor rounded-circle border" for="colorBlanco" style="background-color: #ffffff;" title="Blanco"></label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input d-none" type="radio" name="color" id="colorNegro">
+                        <label class="cambioColor rounded-circle border" for="colorNegro" style="background-color: #000000;" title="Negro"></label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input d-none" type="radio" name="color" id="colorRojo">
+                        <label class="cambioColor rounded-circle border" for="colorRojo" style="background-color: #c00;" title="Rojo"></label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input d-none" type="radio" name="color" id="colorAzul">
+                        <label class="cambioColor rounded-circle border" for="colorAzul" style="background-color: #0044cc;" title="Azul Marino"></label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input d-none" type="radio" name="color" id="colorGris">
+                        <label class="cambioColor rounded-circle border" for="colorGris" style="background-color: #888;" title="Gris Plata"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Extras opcionales</label>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="navegacion">
+                      <label class="form-check-label" for="navegacion">Sistema de navegación + 800 €</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="asientos">
+                      <label class="form-check-label" for="asientos">Asientos calefactados + 400 €</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="techpack">
+                      <label class="form-check-label" for="techpack">Tech Pack + 1200 €</label>
+                    </div>
+                  </div>
+                  <div class="mb-4">
+                    <h5>Total estimado: <span class="text-primary">25.000 €</span></h5>
+                  </div>
+                  <button class="btn btn-primary w-100">Continuar con la compra</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <footer class="bg-dark text-white text-center py-3 text-center alfondo">
+            <div></div><i class="bi bi-c-circle"></i> 2025 Volkswagen | Redes Sociales: &nbsp;&nbsp;<a href="https://www.facebook.com/volkswagenesp/?locale=es_ES" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover">Facebook </a>&nbsp; | &nbsp;<a href="https://x.com/vw_es?lang=es" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover"> Twitter </a>&nbsp; | &nbsp;<a href="https://www.youtube.com/user/volkswagenesp" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover">YouTube </a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ejemplos Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Importados los iconos-->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <div class="col-12 ">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-pers">
+                        <a href="index.html" class="navbar-brand"><img src="imagenes/logo volskwagen.png" class="circle" style="height: 70px"></a>
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#uno" >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <h3 >Volskwagen</h3>
+                        <div class="collapse navbar-collapse" id="uno">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="index.html" class="nav-link navbar-color ">Inicio</a></li>
+                                <li class="nav-item"><a href="producto.html" class="nav-link navbar-color">Golf 8</a></li>
+                                <li class="nav-item"><a href="formulario.html" class="nav-link navbar-color">Datos del usuario</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container fondo mt-3">
+        <form>
+            <div class="form-group col-md-12">
+                <div class="form-group col-md-12">
+                <label for="Nombre" class="pt-3">Nombre</label>
+                <input type="password" class="form-control" id="Nombre" placeholder="Juan Ernesto">
+                </div>
+                <label for="inputEmail4" class="pt-3">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+            <div class="form-group">
+                <label for="inputAddress" class="pt-3">Direccion</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="calle Guadalquivir, 107, bloque 2, 2ºB">
+            <div class="row">
+                <div class=" col-md-4">
+                <label for="inputCity" class="pt-3">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+                
+                </div>
+                <div class=" col-md-4">
+                <label for="inputState" class="pt-3">Comunidad autónoma</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Elegir...</option>
+                    <option value="andalucia">Andalucía</option>
+                    <option value="aragon">Aragón</option>
+                    <option value="asturias">Asturias</option>
+                    <option value="baleares">Islas Baleares</option>
+                    <option value="canarias">Canarias</option>
+                    <option value="cantabria">Cantabria</option>
+                    <option value="castilla_leon">Castilla y León</option>
+                    <option value="castilla_la_mancha">Castilla-La Mancha</option>
+                    <option value="cataluna">Cataluña</option>
+                    <option value="valencia">Comunidad Valenciana</option>
+                    <option value="extremadura">Extremadura</option>
+                    <option value="galicia">Galicia</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="murcia">Murcia</option>
+                    <option value="navarra">Navarra</option>
+                    <option value="pais_vasco">País Vasco</option>
+                    <option value="la_rioja">La Rioja</option>
+                </select>
+                </div>
+                <div class="form-group col-md-4">
+                <label for="inputZip" class="pt-3">Codigo postal</label>
+                <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            </div>
+            <label for="sexo" class="pt-3">Sexo</label>
+            <div><label class="radio-inline"><input type="radio" name="sexo"> Masculino </label></div>
+            <div><label class="radio-inline"><input type="radio" name="sexo"> Femenino </label></div>
+            <div><label class="radio-inline"><input type="radio" name="sexo"> Otro </label></div>
+            <div><label class="radio-inline"><input type="radio" name="sexo"> Prefiero no decirlo </label></div>
+            <div class="col-12 pt-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Acepto el <a href="https://www.volkswagen.es/comunicacion/politica-de-privacidad-o-tratamiento-digital-de-datos/" class="link-primary link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover">tratamiento de datos</a>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label pt-3">Comentarios:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="d-grid gap-5 col-1 mx-auto">
+            <button type="submit" class="btn btn-primary position mb-4 mt-2">Enviar</button></div>
+        </form>
+        </div>
+        <footer class="bg-dark text-white text-center py-3 text-center alfondo">
+            <div></div><i class="bi bi-c-circle"></i> 2025 Volkswagen | Redes Sociales: &nbsp;&nbsp;<a href="https://www.facebook.com/volkswagenesp/?locale=es_ES" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover">Facebook </a>&nbsp; | &nbsp;<a href="https://x.com/vw_es?lang=es" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover"> Twitter </a>&nbsp; | &nbsp;<a href="https://www.youtube.com/user/volkswagenesp" class="link-light link-offset-2 link-underline-opacity-100 link-underline-opacity-100-hover">YouTube </a>
+            </div>
+        </footer>
+    </body>
+</html>
